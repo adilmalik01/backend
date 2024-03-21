@@ -20,6 +20,11 @@ import ProtectProfile from './router/profile.mjs'
 
 
 
+app.get("/post", (req, res) => {
+    res.send("ok")
+})
+
+
 
 app.use("/api/v1", AuthRouter)
 
